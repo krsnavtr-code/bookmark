@@ -1,0 +1,35 @@
+{
+    "id": "socialTech",
+    "title": "Social Tech...",
+    "description": "Here is my social tech accounts.",
+    "social": [
+        {
+            "name": "GitHub",
+            "link": "https://github.com/krsnavtr-code"
+        },
+        {
+            "name": "GitLab",
+            "link": "https://gitlab.crio.do/krishnaavtar955"
+        },
+        {
+            "name": "Linkedin",
+            "link": "https://www.linkedin.com/in/krsnavtr-code/"
+        },
+        {
+            "name": "LeetCode",
+            "link": "https://leetcode.com/playground/"
+        },
+        {
+            "name": "Replit",
+            "link": "https://replit.com/@krishnaavtar"
+        },
+        {
+            "name": "Netlify",
+            "link": "https://app.netlify.com/teams/krishnaavtar955/overview"
+        },
+        {
+            "name": "CodeSandbox",
+            "link": "https://codesandbox.io/u/krishnaavtar955"
+        }
+    ]
+}

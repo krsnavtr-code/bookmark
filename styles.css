@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:'Open Sans', sans-serif;
+    font-size:14px!important;
+    color:#3a3c42;
+    margin : auto;
+    min-height:90vh;
+    background:-webkit-linear-gradient(left, #e66465 ,#9198e5);
+}
+
+header {
+    text-align: center;
+    padding: 5px 0;
+}
+header h1 {
+    letter-spacing: 1px;
+}
+
+.bookmark {
+    padding: 1.5% 0%;
+    margin: 0 15%;
+}
+.bookmark h2 {
+    font-weight: bold;
+}
+.bookmark-bar {
+    margin: 10px;
+}
+.bookmark-bar h3 {
+    margin: 5px 0;
+    font-weight: bold;
+}
+.bookmark-bar p {
+    
+    margin: 5px 0;
+}
+.bookmark-bar ul {
+    list-style: none outside none;
+}
+.bookmark-bar ul > li {
+    background-color: #3a3c4224;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 5px ;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.bookmark-bar ul > li > section > div > a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+.bookmark-bar ul > li > section > div > a:hover {
+    color: #ffffffa8;
+}
+
+.wrapper {
+    display: grid;
+    place-content: center;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .wrapper > div {
+    grid-area: 1/1/-1/-1;
+  }
+  .top {
+    clip-path:  polygon(0% 0%, 100% 0%, 100% 22%, 0% 59%);
+  }
+  .bottom {
+    text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+    clip-path: polygon(0% 76%, 100% 26%, 100% 100%, 0% 100%);
+    color: transparent;
+    transform: translateX(-0.02em);
+  }
